@@ -58,6 +58,8 @@
             label = "TapHold Raise/IntelliJ";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&mo 3>;
+
+            tapping-term-ms = <250>;
         };
 
         TapHoldRseIj: TapHoldRseIj {
@@ -65,6 +67,8 @@
             label = "TAPHOLDRSEIJ";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&mo 3>;
+
+            tapping-term-ms = <250>;
         };
     };
 
