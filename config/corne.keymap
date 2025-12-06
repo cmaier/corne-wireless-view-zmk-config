@@ -74,7 +74,7 @@
         macOsGrEsc: macOsGrEsc {
             compatible = "zmk,behavior-mod-morph";
             label = "MACOSGRESC";
-            bindings = <&gresc>, <&kp LC(ESCAPE)>;
+            bindings = <&gresc>, <&kp ESCAPE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_LALT|MOD_RALT|MOD_RGUI)>;
