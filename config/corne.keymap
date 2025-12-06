@@ -51,6 +51,8 @@
             label = "TAPHOLDSFNCFG";
             #binding-cells = <0>;
             bindings = <&mo 4>, <&mo 5>;
+
+            tapping-term-ms = <250>;
         };
 
         TapHoldLwrIj: TapHoldLwrIj {
