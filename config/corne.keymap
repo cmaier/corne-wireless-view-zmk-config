@@ -8,8 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt { flavor = "tap-preferred"; };
-
 / {
     behaviors {
         lp: lp {
@@ -20,6 +18,32 @@
             #binding-cells = <2>;
             tapping-term-ms = <350>;
             flavor = "tap-preferred";
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            hold-while-undecided;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+        };
+
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            hold-while-undecided;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
         };
     };
 
@@ -35,10 +59,10 @@
 
             display-name = "Base";
             bindings = <
-&gresc     &kp Q  &kp W        &kp E        &lp LG(R) R  &lp LG(T) T    &kp Y    &kp U       &kp I       &kp O        &kp P     &kp BSPC
-&kp LCTRL  &kp A  &mt LCTRL S  &mt LALT D   &mt LGUI F   &kp G          &kp H    &mt RGUI J  &mt RALT K  &mt RCTRL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &lp LG(X) X  &lp LG(C) C  &lp LG(V) V  &kp B          &kp N    &kp M       &kp COMMA   &kp DOT      &kp FSLH  &mt RSHFT TAB
-                               &kp LGUI     &mo 1        &kp SPACE      &kp RET  &mo 2       &kp RALT
+&gresc     &kp Q  &kp W         &kp E        &lp LG(R) R  &lp LG(T) T    &kp Y    &kp U        &kp I        &kp O         &kp P     &kp BSPC
+&kp LCTRL  &kp A  &hml LCTRL S  &hml LALT D  &hml LGUI F  &kp G          &kp H    &hmr RGUI J  &hmr RALT K  &hmr RCTRL L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &lp LG(X) X   &lp LG(C) C  &lp LG(V) V  &kp B          &kp N    &kp M        &kp COMMA    &kp DOT       &kp FSLH  &mt RSHFT TAB
+                                &kp LGUI     &mo 1        &kp SPACE      &kp RET  &mo 2        &kp RALT
             >;
         };
 
