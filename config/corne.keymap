@@ -52,6 +52,20 @@
             #binding-cells = <0>;
             bindings = <&mo 4>, <&mo 5>;
         };
+
+        TapHoldLwrIj: TapHoldLwrIj {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TapHold Raise/IntelliJ";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&mo 3>;
+        };
+
+        TapHoldRseIj: TapHoldRseIj {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPHOLDRSEIJ";
+            #binding-cells = <0>;
+            bindings = <&mo 2>, <&mo 3>;
+        };
     };
 
     keymap {
@@ -66,10 +80,10 @@
 
             display-name = "Base";
             bindings = <
-&gresc     &kp Q  &kp W         &kp E           &lp LG(R) R  &lp LG(T) T    &kp Y    &kp U        &kp I        &kp O         &kp P     &kp BSPC
-&kp LCTRL  &kp A  &hml LCTRL S  &hml LALT D     &hml LGUI F  &kp G          &kp H    &hmr RGUI J  &hmr RALT K  &hmr RCTRL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &lp LG(X) X   &lp LG(C) C     &lp LG(V) V  &kp B          &kp N    &kp M        &kp COMMA    &kp DOT       &kp FSLH  &mt RSHFT TAB
-                                &TapHoldSfnCfg  &mo 1        &kp SPACE      &kp RET  &mo 2        &mo 3
+&gresc     &kp Q  &kp W         &kp E           &lp LG(R) R    &lp LG(T) T    &kp Y    &kp U          &kp I           &kp O         &kp P     &kp BSPC
+&kp LCTRL  &kp A  &hml LCTRL S  &hml LALT D     &hml LGUI F    &kp G          &kp H    &hmr RGUI J    &hmr RALT K     &hmr RCTRL L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &lp LG(X) X   &lp LG(C) C     &lp LG(V) V    &kp B          &kp N    &kp M          &kp COMMA       &kp DOT       &kp FSLH  &mt RSHFT TAB
+                                &TapHoldSfnCfg  &TapHoldLwrIj  &kp SPACE      &kp RET  &TapHoldRseIj  &TapHoldSfnCfg
             >;
         };
 
