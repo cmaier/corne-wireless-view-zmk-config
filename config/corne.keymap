@@ -137,10 +137,10 @@
 
         IntellliJ {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans             &trans      &trans          &kp LS(F6)     &kp LG(LS(T))    &trans                  &kp LA(F7)     &trans  &trans                   &kp LG(LA(P))  &trans
+&trans  &kp LA(LG(LS(A)))  &kp LG(F6)  &kp LA(LS(F5))  &trans         &trans           &kp LC(LG(LEFT_ARROW))  &kp LC(LS(J))  &trans  &kp LG(LA(RIGHT_ARROW))  &trans         &trans
+&trans  &trans             &trans      &trans          &kp LG(LA(V))  &trans           &kp LG(LA(N))           &kp LA(LS(M))  &trans  &trans                   &trans         &trans
+                                       &trans          &trans         &trans           &trans                  &trans         &trans
             >;
 
             label = "IntelliJ";
