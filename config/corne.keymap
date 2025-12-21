@@ -152,7 +152,7 @@
             display-name = "SpaceFN";
             bindings = <
 &trans  &trans  &kp K_PREV                &kp C_PLAY_PAUSE  &kp C_NEXT                 &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp DELETE
-&trans  &trans  &kp LG(LS(LEFT_BRACKET))  &kp LC(UP_ARROW)  &kp LG(LS(RIGHT_BRACKET))  &trans    &kp LEFT              &kp DOWN              &kp UP      &kp RIGHT          &trans           &trans
+&trans  &trans  &kp LG(LS(LEFT_BRACKET))  &kp LC(DOWN)      &kp LG(LS(RIGHT_BRACKET))  &trans    &kp LEFT              &kp DOWN              &kp UP      &kp RIGHT          &trans           &trans
 &trans  &trans  &trans                    &trans            &trans                     &trans    &kp HOME              &kp RA(SLASH)         &kp END     &trans             &trans           &trans
                                           &trans            &trans                     &trans    &trans                &trans                &trans
             >;
