@@ -101,7 +101,7 @@
             bindings = <
 &kp ESC    &kp Q         &kp W         &kp E           &lp LG(R) R    &lp LG(T) T    &kp Y        &kp U          &kp I           &kp O         &kp P            &kp BSPC
 &kp LCTRL  &hml LSHFT A  &hml LCTRL S  &hml LALT D     &hml LGUI F    &kp G          &kp H        &hmr RGUI J    &hmr RALT K     &hmr RCTRL L  &hml RSHFT SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X         &lp LG(C) C     &lp LG(V) V    &kp B          &lp LG(N) N  &kp M          &kp COMMA       &kp DOT       &kp FSLH         &TabOrShiftOrSwtr
+&kp LSHFT  &kp Z         &kp X         &lp LG(C) C     &lp LG(V) V    &kp B          &lp LG(N) N  &kp M          &kp COMMA       &kp DOT       &kp FSLH         &mt RSHFT TAB
                                        &TapHoldSfnCfg  &TapHoldLwrIj  &kp SPACE      &kp RET      &TapHoldRseIj  &TapHoldSfnCfg
             >;
         };
@@ -131,8 +131,8 @@
 
             display-name = "Raise";
             bindings = <
-&kp GRAVE  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp DELETE
-&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK   &kp TILDE
+&kp GRAVE  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DELETE
+&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &kp TILDE
 &trans     &kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp N0          &kp UNDER  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
                                        &trans        &trans        &trans          &trans     &trans     &trans
             >;
