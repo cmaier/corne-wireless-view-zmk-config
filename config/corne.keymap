@@ -34,7 +34,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
-            hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             quick-tap-ms = <260>;
@@ -48,47 +47,9 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
-            hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             quick-tap-ms = <260>;
-        };
-
-        TapHoldSfnCfg: TapHoldSfnCfg {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPHOLDSFNCFG";
-            #binding-cells = <0>;
-            bindings = <&mo 3>, <&mo 5>;
-
-            tapping-term-ms = <250>;
-        };
-
-        TapHoldLwrIj: TapHoldLwrIj {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TapHold Raise/IntelliJ";
-            #binding-cells = <0>;
-            bindings = <&mo 4>, <&mo 3>;
-
-            tapping-term-ms = <260>;
-        };
-
-        TapHoldRseIj: TapHoldRseIj {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPHOLDRSEIJ";
-            #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
-
-            tapping-term-ms = <260>;
-        };
-
-        TabOrShiftOrSwtr: TabOrShiftOrSwtr {
-            compatible = "zmk,behavior-mod-morph";
-            label = "TABORSHIFTORSWTR";
-            bindings = <&mt RIGHT_SHIFT TAB>, <&kp GRAVE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
 
