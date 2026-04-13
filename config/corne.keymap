@@ -76,6 +76,7 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
+            display-name = "";
             bindings = <
 &trans  &kp Q         &kp W         &kp E        &lp LG(R) R   &lp LG(T) T    &kp Y            &kp U        &kp I         &kp O         &kp P            &trans
 &trans  &hml LSHFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F   &kp G          &kp H            &hmr RGUI J  &hmr RALT K   &hmr RCTRL L  &hmr RSHFT SEMI  &trans
@@ -100,7 +101,7 @@
                         &trans  &trans  &trans    &trans     &trans          &trans
             >;
 
-            label = "RightSymbols";
+            label = "RSym";
         };
 
         lsym_layer {
@@ -117,7 +118,7 @@
                                         &trans     &trans      &trans         &trans   &trans   &trans
             >;
 
-            label = "LeftSymbols";
+            label = "LSym";
         };
 
         sfn_layer {
