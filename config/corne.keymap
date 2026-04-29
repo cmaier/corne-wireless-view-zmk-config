@@ -105,7 +105,7 @@
 &trans  &kp Q         &kp W         &kp E         &lp LG(R) R  &lp LG(T) T    &kp Y            &kp U        &kp I         &kp O         &kp P            &trans
 &trans  &hml LSHFT A  &hml LCTRL S  &hml LALT D   &hml LGUI F  &kp G          &kp H            &hmr RGUI J  &hmr RALT K   &hmr RCTRL L  &hmr RSHFT SEMI  &trans
 &trans  &kp Z         &kp X         &lp LG(C) C   &lp LG(V) V  &kp B          &lp LG(N) N      &kp M        &kp COMMA     &kp DOT       &kp FSLH         &trans
-                                    &lt 2 ESCAPE  &lt 1 TAB    &lt 3 SPACE    &lt 3 BACKSPACE  &lt 1 DEL    &lt 2 ESCAPE
+                                    &lt 2 ESCAPE  &lt 1 TAB    &lt 3 SPACE    &lt 3 BACKSPACE  &lt 1 DEL    &lt 4 ESCAPE
             >;
 
             label = "Base";
@@ -150,7 +150,7 @@
 &trans  &trans  &kp LG(LS(NUMBER_2))  &trans    &kp LG(LS(NUMBER_4))  &trans           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC      &trans            &trans                     &kp C_VOL_UP  &trans
 &trans  &trans  &trans                &trans    &trans                &trans           &kp LEFT              &kp DOWN                  &kp UP            &kp RIGHT                  &kp C_VOL_DN  &trans
 &trans  &trans  &kp C_PREVIOUS        &kp C_PP  &kp C_NEXT            &kp RA(SLASH)    &kp RA(SLASH)         &kp LG(LS(LEFT_BRACKET))  &kp LC(UP_ARROW)  &kp LG(LS(RIGHT_BRACKET))  &kp C_MUTE    &trans
-                                      &trans    &trans                &kp SPACE        &kp ENTER             &trans                    &trans
+                                      &mo 4     &trans                &kp SPACE        &kp ENTER             &trans                    &trans
             >;
 
             label = "SpaceFN";
