@@ -72,21 +72,25 @@
         LSys {
             bindings = <&mo 5>;
             key-positions = <36 37 38>;
+            layers = <5>;
         };
 
         RSys {
             bindings = <&mo 5>;
             key-positions = <39 40 41>;
+            layers = <5>;
         };
 
         LIJ {
             bindings = <&mo 4>;
             key-positions = <36 38>;
+            layers = <4>;
         };
 
         RIJ {
             bindings = <&mo 4>;
             key-positions = <39 41>;
+            layers = <4>;
         };
     };
 
