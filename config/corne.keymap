@@ -158,10 +158,10 @@
 
         ij_layer {
             bindings = <
-&trans  &trans             &trans      &kp LC(LS(A))   &kp LS(F6)     &kp LG(LS(T))    &trans                  &kp LA(F7)        &trans                &trans                   &kp LG(LA(P))  &trans
-&trans  &kp LG(LA(LS(A)))  &kp LG(F6)  &kp LALT        &kp LGUI       &trans           &kp LG(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP_ARROW))  &kp LG(LA(RIGHT_ARROW))  &double_shift  &trans
-&trans  &trans             &trans      &kp LA(LS(F5))  &kp LG(LA(V))  &trans           &kp LG(LA(N))           &kp LG(LA(M))     &kp LC(LS(J))         &trans                   &trans         &trans
-                                       &trans          &trans         &trans           &trans                  &trans            &trans
+&trans  &trans             &trans         &kp LC(LS(A))   &kp LS(F6)     &kp LG(LS(T))    &trans                  &kp LA(F7)        &trans                &trans                   &kp LG(LA(P))  &trans
+&trans  &kp LG(LA(LS(A)))  &kp LG(F6)     &kp LALT        &kp LGUI       &trans           &kp LG(LA(LEFT_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(UP_ARROW))  &kp LG(LA(RIGHT_ARROW))  &double_shift  &trans
+&trans  &kp LA(LS(D))      &kp LA(LS(S))  &kp LA(LS(F5))  &kp LG(LA(V))  &trans           &kp LG(LA(N))           &kp LG(LA(M))     &kp LC(LS(J))         &trans                   &trans         &trans
+                                          &trans          &trans         &trans           &trans                  &trans            &trans
             >;
 
             label = "IntelliJ";
